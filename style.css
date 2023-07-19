@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+.memGame {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px black;
+}
+.allDivs,
+.colorPicker {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  border: solid 1px black;
+  border-radius: 2px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+.colorPicker:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+.controler {
+  display: none;
+}
+#startover {
+  display: none;
+  margin: auto;
+}
